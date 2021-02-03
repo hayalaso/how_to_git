@@ -71,7 +71,7 @@ To remove files or diretory do
 ```
 git rm file
 git rm -r dir
-``
+```
 Then commit and push. 
 
 If you want to delete something from the repo but not locally, add the flag `--cached` to `git rm`
