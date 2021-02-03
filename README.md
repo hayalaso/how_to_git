@@ -57,6 +57,21 @@ git checkout branch1
 git merge branch2 # branch2 changes go into branch1
 git push origin branch1
 ```
+To undo a merge, you can do 
+```
+git reset --hard HASH
+```
+if you haven't pushed the merged branch.
+
+If you pushed it you can do 
+```
+git revert -m 1 HASH
+```
+
+The `HASH` value can be obtained from
+```
+git log --oneline
+```
 
 ## Stashing
 If you forgot to update your local repo, and you have made changes you might get conflicts.  You can stash your changes, update and then unstash
