@@ -92,4 +92,8 @@ Then commit and push.
 If you want to delete something from the repo but not locally, add the flag `--cached` to `git rm`
 
 
-
+## Restoring deleted file in local
+If you deleted a file by mistake, you an recover it by doing
+```
+git checkout HEAD <filename>
+```
