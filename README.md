@@ -93,7 +93,7 @@ If you want to delete something from the repo but not locally, add the flag `--c
 
 
 ## Restoring deleted file in local
-If you deleted a file by mistake, you an recover it by doing
+If you deleted a file by mistake, you can recover it by doing
 ```
 git checkout HEAD <filename>
 ```
