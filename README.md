@@ -52,6 +52,9 @@ git pull origin branch
 ```
 
 ## Merging between branches
+Make sure that your local copy of `branch2` is up-to-date first. 
+Then you can do the following:
+
 ```
 git checkout branch1
 git merge branch2 # branch2 changes go into branch1
